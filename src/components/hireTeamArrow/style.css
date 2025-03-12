@@ -1,0 +1,28 @@
+.hire-team-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hire-team-content-box {
+    padding: 0 30px;
+}
+
+.hire-team-arrow h3 a {
+    color: #07C28E;
+    text-decoration: none;
+}
+
+.hire-team-arrow h3 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.hire-team-arrow i {
+    font-size: 18px;
+    color: #07C28E;
+    font-weight: 600;
+    cursor: pointer;
+}

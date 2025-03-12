@@ -1,0 +1,178 @@
+.stack-box {
+    box-shadow: -4px 4px 19px 0px #0000001A;
+    padding: 20px;
+    width: 210px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.stack-box h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.stack-box img {
+    width: 90px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.stack-slider-box {
+    margin-top: 50px;
+    position: relative;
+}
+
+.stack-slider-box .swiper {
+    padding-top: 75px !important;
+    padding-bottom: 30px !important;
+}
+
+.stack-slider-box .swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
+    padding-top: 75px !important;
+    padding-bottom: 30px !important;
+}
+
+.stack-slider-box .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.mySwiper {
+    padding-top: 75px !important;
+    padding-bottom: 30px !important;
+}
+
+.stack-slider-box .swiper-slide {
+    justify-content: center;
+    display: flex;
+}
+
+.stack-slider-box .swiper-button-next:after {
+    content: '\f054' !important;
+    font-family: 'FontAwesome' !important;
+    font-size: 32px !important;
+    color: #000000 !important;
+}
+
+.stack-slider-box .swiper-button-next {
+    position: absolute;
+    top: 15px;
+    right: 3%;
+}
+
+.stack-slider-box .swiper-button-prev:after {
+    content: '\f053' !important;
+    font-family: 'FontAwesome' !important;
+    font-size: 32px !important;
+    color: #000000 !important;
+}
+
+.stack-slider-box .swiper-button-prev {
+    position: absolute;
+    top: 15px;
+    left: 92%;
+}
+
+.logo-image-remot {
+    background-image: url('../../../public/images/success-box.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    background-position: center;
+}
+
+.logo-image-remot img {
+    width: 70px;
+}
+
+.logo-image-remot h6 {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.logo-image-remot h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+}
+
+.remot-button {
+    margin-top: 30px;
+}
+
+.remot-button i {
+    margin-left: 10px;
+}
+
+.remot-button a {
+    background-color: #ffffff;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #CCCCCC;
+}
+
+.remot-button a:hover {
+    background-color: #2F83CB;
+    border-color: #2F83CB;
+    color: #ffffff;
+}
+
+@media(max-width: 450px) {
+    .stack-slider-box .swiper-button-prev {
+        left: 80% !important;
+    }
+
+    .stack-box {
+        width: 110px !important;
+        height: 110px !important;
+    }
+}
+
+@media(max-width: 780px) {
+    .stack-slider-box {
+        margin-top: 30px;
+    }
+
+    .stack-slider-box .swiper-button-prev {
+        left: 89%;
+    }
+
+    .stack-box {
+        width: 130px;
+        height: 130px;
+    }
+
+    .stack-box img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .stack-box h3 {
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .logo-image-remot {
+        margin-top: 30px;
+    }
+}

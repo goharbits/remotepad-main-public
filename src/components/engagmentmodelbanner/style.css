@@ -1,0 +1,42 @@
+.engagment-banner-main {
+    width: 100%;
+    height: 400px;
+    background-image: url('../../../public/images/engagment-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.engagment-banner-main .about-banner-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.banner-heading-text .hireteam-content-box p {
+    width: 60%;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+}
+
+.banner-heading-text .hireteam-content-box {
+    margin-top: 0;
+}
+
+.banner-heading-text {
+    padding: 50px 0;
+    background-color: #F3FAFF;
+}
+
+@media(max-width: 950px) {
+    .hire-dev-button.header-buttons {
+        justify-content: center !important;
+    }
+}
+
+@media(max-width: 350px) {
+    .engagment-banner-main {
+        height: 450px;
+    }
+}

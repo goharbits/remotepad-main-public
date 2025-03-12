@@ -1,0 +1,37 @@
+.single-banner-img img{
+    width: 100%;
+}
+.single-banner-content h1{
+    font-size: 44px;
+    font-weight:600;
+    line-height: 55px;
+}
+.single-banner-content h1 span{
+    color: #00D6B8;
+}
+.single-blog-banner-wrap{
+    padding: 65px 0px;
+    background-color: #F3FAFF;
+}
+.single-blog-banner-wrap .auth-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+    margin-top: 20px;
+}
+.single-blog-banner-wrap .auth-info p{
+    font-size: 16px;
+    margin: 0;
+}
+.single-blog-banner-wrap .auth-info .auth-profile img{
+    width: 55px;
+}
+.single-blog-banner-wrap .auth-info .auth-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.single-blog-banner-wrap .auth-info .auth-profile{
+    color: #7a7d80;
+}

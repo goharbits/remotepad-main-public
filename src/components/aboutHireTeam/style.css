@@ -1,0 +1,200 @@
+.hire-team-content-area {
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+img.lines-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-team-content h4 span {
+    font-weight: 800;
+}
+
+.about-team-content.its-second-box {
+    justify-content: flex-end;
+}
+
+.about-team-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.about-team-content h4 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+}
+
+.about-team-content h1.its-second-circle {
+    margin-top: 0px;
+}
+
+.about-team-content h1 {
+    font-size: 42px;
+    color: #0080FF;
+    font-weight: 700;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.hire-team-about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #0FB69A;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 10px solid #ffffff;
+}
+
+.icon-box img {
+    width: 38px;
+}
+
+.about-team-content.first-box {
+    padding-left: 82px;
+}
+
+.about-team-content.second-box h4.its-second-heding {
+    width: 60% !important;
+    margin-top: 25px;
+}
+
+.about-team-content.second-box {
+    padding-left: 43px;
+}
+
+.about-team-content.third-box h4 {
+    width: 60% !important;
+}
+
+.about-team-content.third-box {
+    padding-right: 30px;
+}
+
+.call-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.call-button a {
+    width: 250px;
+    height: 50px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px solid #07C28E;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+@media(max-width: 330px) {
+    h1.main-heading {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .about-team-content {
+        padding-bottom: 30px !important;
+    }
+}
+
+@media(max-width: 450px) {
+    .hire-team-content-area {
+        background-image: none !important;
+        height: 100% !important;
+    }
+
+    .about-team-content {
+        padding-bottom: 0;
+    }
+
+    img.lines-image {
+        display: none;
+    }
+
+    .hire-team-content-area .about-team-content.third-box {
+        padding-top: 30px !important;
+    }
+
+    .about-team-content.third-box h4,
+    .about-team-content h1,
+    .about-team-content.second-box h4.its-second-heding,
+    .about-team-content h4 {
+        width: 100% !important;
+    }
+
+    .about-team-content h1 {
+        margin-top: 0 !important;
+    }
+
+    .about-team-content.second-box {
+        padding: 0 !important;
+        flex-direction: column-reverse;
+    }
+
+    .about-team-content.third-box {
+        padding: 0 !important;
+    }
+
+    .about-team-content.first-box {
+        padding-left: 0 !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media(max-width: 780px) {
+    .hire-team-content-area {
+        background-size: 100%;
+        height: 300px;
+    }
+
+    .about-team-content.first-box {
+        padding-left: 70px;
+        margin-top: -22px;
+    }
+
+    .who-we-are-text p {
+        width: 100%;
+    }
+
+    .about-team-content.second-box {
+        padding-left: 0;
+        padding-top: 75px;
+    }
+
+    .about-team-content.third-box {
+        align-items: flex-start;
+        padding-bottom: 100px;
+        padding-left: 10px;
+    }
+}

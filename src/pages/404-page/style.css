@@ -1,0 +1,27 @@
+.page-404-wrap .animated-icon-404{
+    width: 70% !important;
+}
+.content-404 .back-to-home-btn{
+    border: 3px solid #209bb4;
+    width: 220px;
+    height: 50px;
+    display: block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.content-404 .back-to-home-btn:hover{
+    background: linear-gradient(97.43deg, #07C28E -36.63%, #2F83CB 204.66%);
+    color: #fff;
+}
+.page-404-wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}

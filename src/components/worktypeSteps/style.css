@@ -1,0 +1,105 @@
+.work-type-steps-box h3 {
+    text-align: center;
+    font-size: 26px;
+    color: #999999;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.select-boxes .radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.select-boxes .radio-group label {
+    width: 200px;
+    height: 200px;
+    box-shadow: -2px 4px 27.8px 0px #0000001A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    position: relative;
+}
+
+.select-boxes .radio-group label:before {
+    position: absolute;
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    background-color: #15ACA3;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -12px;
+    font-size: 14px;
+    display: none;
+}
+
+.select-boxes .radio-group label h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.select-boxes .radio-group label img {
+    width: 60px;
+    margin: 0 auto;
+}
+
+.select-boxes .radio-input {
+    display: none;
+}
+
+.select-boxes .radio-label {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.select-boxes .radio-input:checked+.radio-label:before {
+    display: flex;
+}
+
+.select-boxes .radio-input:checked+.radio-label {
+    border-color: #15ACA3;
+}
+
+.select-boxes {
+    margin-top: 50px;
+}
+
+.next-button-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.next-button-box a i {
+    margin-left: 5px;
+}
+
+.next-button-box a:before {
+    top: -80px;
+    right: 0;
+}
+
+.next-button-box a {
+    border: 2px solid #15ACA3;
+    color: #15ACA3;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.work-type-steps-box {
+    height: 81vh;
+}

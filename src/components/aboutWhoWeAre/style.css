@@ -1,0 +1,155 @@
+.who-we-are-box {
+    background-color: #F3FAFF;
+    padding: 50px 0;
+}
+
+.who-we-are-text p.common-text {
+    position: relative;
+}
+
+.green-quotes-text {
+
+    position: absolute;
+    transform: rotateY(180deg);
+    color: #0fb49b;
+    top: -7px;
+    left: -25px;
+}
+
+.who-we-are-image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.who-we-are-image img {
+    width: 100%;
+}
+
+.who-we-are-button {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.who-we-are-button a {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 100px;
+    background: linear-gradient(261.39deg, #07C28E -1.24%, #11B29D 24.27%, #2F83CB 100.77%);
+}
+
+.who-we-are-text p a {
+    text-decoration: none;
+}
+
+.who-we-are-text p {
+    width: 100%;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.vission-image {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.vission-image img {
+    width: 100%;
+}
+
+.our-vission-box .who-we-are-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-vission-box {
+    padding: 50px 0;
+}
+
+.our-vission-box .who-we-are-text p {
+    width: 100%;
+    line-height: 40px;
+}
+
+.who-we-are-text h1.main-heading {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+@media(max-width: 330px) {
+    .who-we-are-text h1.main-heading {
+        font-size: 26px !important;
+        font-weight: 600;
+    }
+
+    .our-vission-box .who-we-are-text p {
+        line-height: 35px;
+    }
+
+    .our-vission-box {
+        padding: 40px 0;
+    }
+}
+
+@media(max-width: 450px) {
+    .who-we-are-button {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .our-vission-box .who-we-are-text p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .who-we-are-image img {
+        margin-bottom: 20px;
+    }
+
+    .who-we-are-text p {
+        font-size: 16px;
+    }
+
+    .who-we-are-text h1.main-heading {
+        font-size: 32px;
+    }
+
+    .who-we-are-text,
+    .mission-text {
+        text-align: center;
+    }
+
+    .mission-text.text-2-side {
+        text-align: center;
+        align-items: center;
+        margin-top: 0 !important;
+    }
+
+    .space-top-mission {
+        margin-top: 30px;
+    }
+
+    .mission-text {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 780px) {
+    .vission-image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .who-we-are-text p {
+        width: 100%;
+    }
+}

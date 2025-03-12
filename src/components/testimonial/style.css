@@ -1,0 +1,222 @@
+.main-testimonial-box {
+    position: relative;
+    height: 780px;
+    z-index: 99;
+}
+
+.main-testimonial-box:before {
+    position: absolute;
+    content: '';
+    width: 57%;
+    height: 100%;
+    padding: 70px 0;
+    right: 0;
+    background-color: #F3FAFF !important;
+    z-index: -1;
+}
+
+h5.common-sub-heading {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.testimonial-content-box {
+    padding: 150px 0;
+    height: 100%;
+}
+
+h5.common-sub-heading {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h1.main-heading {
+    color: #212529;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+h1.main-heading span {
+    color: #07C28E;
+}
+
+.testimonial-slider-box {
+    margin-left: -250px;
+}
+
+.testimonial-slider-card {
+    width: 570px;
+    height: 490px;
+    background: linear-gradient(138.83deg, #14AEA2 -10.35%, #2F83CB 130.54%);
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-profile-card img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.testimonial-slider-card img {
+    width: 50px;
+}
+
+p.testimonial-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.testimonial-profile-card {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-user-text {
+    margin-left: 15px;
+}
+
+
+.testimonial-user-text h2 {
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.testimonial-profile-card.success-profile-text .testimonial-user-text h6 {
+    font-size: 14px;
+    color: #2F83CB !important;
+    font-weight: 400;
+}
+
+.testimonial-slider-box .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.mySwiper {
+    padding: 0 0 100px 0;
+}
+
+.testimonial-slider-box {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-slider-box .swiper-button-prev {
+    position: absolute;
+    left: 88%;
+    top: 95%;
+}
+
+.testimonial-slider-box .swiper-button-next {
+    position: absolute;
+    left: 92%;
+    top: 95%;
+}
+
+.testimonial-slider-box .swiper-slide.swiper-slide-active {
+    transform: scale(0.9);
+}
+
+.testimonial-slider-box .swiper-button-next,
+.testimonial-slider-box .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #288fc0;
+    color: #ffffff;
+}
+
+.swiper-button-next:after {
+    font-family: 'FontAwesome' !important;
+    content: '\f0da' !important;
+    font-size: 21px !important;
+}
+
+.swiper-button-prev:after {
+    font-family: 'FontAwesome' !important;
+    content: '\f0d9' !important;
+    font-size: 21px !important;
+}
+
+@media(max-width: 950px) {
+    .main-testimonial-box {
+        height: 100%;
+    }
+}
+
+@media(max-width: 780px) {
+    .testimonial-slider-card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .testimonial-slider-box .swiper-button-next,
+    .testimonial-slider-box .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+    }
+
+    .testimonial-slider-box .swiper-button-prev {
+        left: 86%;
+    }
+
+    h5.common-sub-heading {
+        font-size: 16px;
+    }
+
+    h1.main-heading {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+@media(max-width: 450px) {
+    .testimonial-slider-card {
+        padding: 30px;
+    }
+
+    .main-testimonial-box {
+        height: 100%;
+        padding: 30px 0;
+    }
+
+    .testimonial-content-box {
+        padding: 30px 0 0 0;
+    }
+
+    .testimonial-slider-card img {
+        width: 30px;
+    }
+
+    .main-testimonial-box:before {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width: 450px) {
+    .testimonial-slider-box .swiper-button-next {
+        left: 93% !important;
+    }
+}
+
+@media(max-width: 1050px) {
+    .testimonial-slider-card {
+        width: 100%;
+    }
+
+    .testimonial-slider-box .swiper-button-next {
+        left: 94%;
+    }
+}

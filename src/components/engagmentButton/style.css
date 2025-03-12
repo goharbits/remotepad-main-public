@@ -1,0 +1,27 @@
+.engagment-button-box {
+    background-image: url('../../../public/images/engagmentButton.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.engagment-button {
+    display: flex;
+    justify-content: center;
+}
+
+.engagment-button a {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff !important;
+    font-weight: 500;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}

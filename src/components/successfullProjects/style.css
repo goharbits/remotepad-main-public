@@ -1,0 +1,30 @@
+.successfullProjects-box {
+    background-color: #F3FAFF;
+    padding: 70px 0;
+    margin-top: 50px;
+}
+
+.logo-box-projects img {
+    width: 150px;
+}
+
+@media(max-width: 950px) {
+    .successfullProjects-box {
+        margin-top: 70px !important;
+    }
+}
+
+@media(max-width: 780px) {
+    .logo-box-projects img {
+        width: 120px;
+    }
+
+    .logo-box-projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    .successfullProjects-box {
+        padding: 40px 0;
+    }
+}

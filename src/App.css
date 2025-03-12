@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+a.bg-dark-btn:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(97.43deg, #07C28E -36.63%, #2F83CB 204.66%);
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+a.bg-dark-btn span {
+  position: relative;
+}
+
+a.bg-dark-btn:hover:before {
+  transform: scale(0);
+}
+
+a.bg-dark-btn:hover {
+  background-color: transparent !important;
+  color: #07C28E !important;
+}
+
+body a.bg-dark-btn {
+  color: #ffffff !important;
+  position: relative;
+  overflow: hidden;
+}
+
+/*HIRE A TEAM CSS*/
+
+.sidebar-box {
+  height: 94.5vh;
+  padding: 30px;
+  background: linear-gradient(169.5deg, #F0FAF9 3.85%, #F3FAFF 158.7%);
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.sidebar-logo img {
+  width: 170px;
+}
+
+h2.sidebar-heading {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 0 30px 20px;
+}
+
+ul.sidebar-links li a.sidebar-circle {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+
+ul.sidebar-links li a.sidebar-circle.active-sidebar {
+  color: #3c3c3c;
+}
+
+ul.sidebar-links li a.sidebar-circle.active-sidebar span i {
+  display: flex !important;
+}
+
+ul.sidebar-links li a.sidebar-circle.active-sidebar span {
+  background-color: #3da392 !important;
+  color: #ffffff !important;
+}
+
+ul.sidebar-links li a.sidebar-circle span {
+  background-color: #D9E3E2;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  position: relative;
+  margin-right: 15px;
+}
+
+ul.sidebar-links li a.sidebar-circle span i {
+  font-size: 16px;
+  display: none;
+}
+
+ul.sidebar-links li a.sidebar-circle span.last-child:before {
+  display: none;
+}
+
+ul.sidebar-links li a.sidebar-circle.active-sidebar span:before {
+  background-color: #3da392;
+}
+
+ul.sidebar-links li a.sidebar-circle span:before {
+  position: absolute;
+  content: '';
+  background-color: #D9D9D9;
+  width: 1px;
+  height: 100%;
+  border-radius: 100px;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+ul.sidebar-links {
+  padding: 0;
+}
+
+ul.sidebar-links li {
+  list-style: none;
+  height: 85px;
+}
+
+h2.hire-team-main-heading {
+  font-size: 23px;
+  color: #212529 !important;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.searchbox-hire-team input {
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  border: none;
+  outline: none;
+}
+
+.searchbox-hire-team label i {
+  color: #07C28E;
+}
+
+.searchbox-hire-team:focus-within {
+  border: 2px solid #07C28E;
+}
+
+.searchbox-hire-team {
+  box-shadow: 0px 1px 10.9px 0px #00000012;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-right: 20px;
+  border-radius: 100px;
+  overflow: hidden;
+  width: 60%;
+  margin-top: 30px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.styled-label {
+  padding: 12px 20px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #787878;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  box-shadow: 0px 1px 10.9px 0px #00000012;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 15px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.styled-label:before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #07C28E;
+  border-radius: 100px;
+  top: -5px;
+  left: -5px;
+  opacity: 0;
+}
+
+.hidden-input:checked+.styled-label:before {
+  opacity: 1;
+}
+
+.hidden-input:checked+.styled-label {
+  border-color: #07C28E;
+}
+
+.hire-team-button-box {
+  display: flex;
+  margin-top: 30px;
+}
+
+.form-button-box {
+  margin-top: 50px;
+}
+
+.form-button-box a i {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-button-box a {
+  width: 120px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #07C28E;
+  color: #07C28E !important;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+p.hire-team-text {
+  color: #787878;
+  margin-bottom: 0;
+}
+
+.hire-team-button-box .number-of-dev label {
+  width: 170px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-experience-form input:focus-within {
+  border-color: #07C28E;
+}
+
+.team-experience-form textarea {
+  min-height: 120px !important;
+}
+
+.team-experience-form input,
+.team-experience-form select,
+.team-experience-form textarea {
+  height: 48px;
+  box-shadow: none !important;
+  margin-top: -10px;
+  color: #787878;
+  border: 1.5px solid #cdcdcd;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.team-experience-form label {
+  margin-bottom: 0;
+  background-color: #ffffff;
+  margin-left: 20px;
+  padding: 0 10px;
+  color: #919191;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.team-experience-form {
+  margin-bottom: 15px;
+}
+
+.team-experience-box .form-button-box {
+  margin-top: 15px;
+}
+
+.hire-team-contact h3 a {
+  color: #07C28E;
+  text-decoration: none;
+}
+
+.hire-team-contact h3 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  text-align: end;
+}
+
+h2.contact-team-main-heading {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+/* TEAM CONTACT STYLE */
+
+.radio-group input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+
+.radio-group {
+  position: relative;
+  margin-top: 30px;
+}
+
+.custom-radio-label i {
+  margin-left: 5px;
+}
+
+.second-label-box {
+  padding: 15px 20px 15px 45px !important;
+}
+
+.custom-radio-label {
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  height: 60px;
+  color: #07C28E;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 5px;
+  box-shadow: -4px 0px 11.3px 0px #00000040;
+  display: flex;
+  align-items: center;
+}
+
+.custom-radio-label img {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.custom-radio:checked+.custom-radio-label {
+  border-color: #15ACA3 !important;
+  background-color: #15ACA30D;
+  /* background: linear-gradient(91.53deg, #18D38F 1.3%, #2F83CB 170.19%); */
+  color: #000000 !important;
+}
+
+.custom-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #D8D9DC;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.custom-radio::before {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 100px;
+  background-color: #D8D9DC;
+  position: absolute;
+  top: 49%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.custom-radio:checked.custom-radio {
+  background-color: #15ACA3 !important;
+}
+
+.custom-radio:checked::before {
+  background-color: #ffffff !important;
+}
+
+.contact-team-box h2.hire-team-main-heading {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.team-experience-input {
+  margin-top: 50px;
+}
+
+.team-experience-input input {
+  height: 45px !important;
+  width: 100% !important;
+}
+
+.call-now-button {
+  margin-top: 20px;
+}
+
+.call-now-button a {
+  border: 2px solid #07C28E;
+  width: 120px;
+  height: 45px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+h2.contact-team-text a {
+  color: #2F83CB;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h2.contact-team-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.date-box h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #363636;
+  margin-bottom: 5px;
+}
+
+.select-date-box {
+  display: flex;
+  margin-top: 10px;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.date-box {
+  padding: 10px 20px;
+  border: 2px solid #DAD4D4;
+  border-radius: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 95px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hidden-input:checked+.date-box h1 {
+  color: #ffffff;
+}
+
+.hidden-input:checked+.date-box {
+  background: linear-gradient(122.92deg, #07C28E 30.35%, #2F83CB 134.16%);
+  border-color: transparent;
+}
+
+h2.contact-team-sub-heading {
+  font-size: 18px;
+  color: #676767;
+  margin-top: 25px;
+}
+
+.date-box-second h1 {
+  margin-bottom: 0 !important;
+  color: #898989;
+}
+
+.date-box-second {
+  width: 120px !important;
+  height: 45px !important;
+}
+
+.your-time-zone h2 {
+  font-size: 16px;
+  color: #787878;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.your-time-zone p {
+  color: #787878;
+  font-size: 14px;
+  padding: 5px 0 0 15px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.your-time-zone {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid #07C28E;
+  height: 70px;
+}
+
+.your-time-zone .css-1p7uo28-control {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.your-time-zone .css-krte1l-control {
+  border: none !important;
+  outline: none !important;
+  border-radius: 5px !important;
+  /* padding: 5px 10px 7px 10px !important; */
+}
+
+.shedule-a-call-button {
+  border-top: 1px solid #D9D9D9;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.shedule-a-call-button a {
+  border: 2px solid #07C28E;
+  width: 220px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* TEAM CONTACT STYLE */
+
+
+/*HIRE A TEAM CSS*/
+
+
+@media(max-width: 330px) {
+  .hire-team-button-box {
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 450px) {
+  .select-date-box {
+    overflow-x: scroll;
+    padding-bottom: 30px;
+  }
+
+  .core-value-box.text-left-box p {
+    margin-bottom: 0 !important;
+  }
+
+  .second-header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .hire-team-contact h3 {
+    text-align: center;
+  }
+}
+
+@media(max-width: 780px) {
+  .searchbox-hire-team {
+    width: 100%;
+  }
+
+  ul.sidebar-links li a.sidebar-circle {
+    font-size: 14px;
+  }
+
+  ul.sidebar-links li a.sidebar-circle span {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sidebar-box {
+    height: 100% !important;
+  }
+}
+
+
+/******LETS CONNECT*******/
+.sidebar-connect-screen {
+  padding: 30px;
+  background-image: url('../public/images/success-box.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 40px;
+  height: 100%;
+}
+
+.sidebar-connect-screen .hire-team-arrow {
+  margin: 20px 0 !important;
+}
+
+.sidebar-connect-screen .hire-team-arrow i {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.sidebar-connect-screen h3 {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 30px !important;
+}
+
+.sidebar-connect-screen p {
+  color: #ffffff !important;
+  margin-bottom: 30px !important;
+}
+
+.lets-connect-form input::placeholder,
+.lets-connect-form textarea::placeholder {
+  font-style: italic !important;
+}
+
+.lets-connect-form .form-button-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/******LETS CONNECT*******/
+
+.stack-slider-box .swiper {
+  padding-top: 75px !important;
+  padding-bottom: 30px !important;
+}

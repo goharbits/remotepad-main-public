@@ -1,0 +1,161 @@
+.skill-experts-box {
+    background-color: #F3FAFF;
+    margin-top: 50px;
+}
+
+.links-boxes {
+    box-shadow: 0px 41px 39.6px 0px #0000000D;
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+ul.links-boxes-lists {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 90%;
+    margin: 0 auto;
+}
+
+li.active {
+    background-color: #15ACA3;
+    opacity: 1 !important;
+    color: #ffffff !important;
+}
+
+ul.links-boxes-lists li.active:before {
+    opacity: 1 !important;
+}
+
+ul.links-boxes-lists li:before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(90deg, #F2F9FE 9.5%, #15ACA3 54%, #F3FAFF 94.5%);
+    bottom: 0;
+    width: 350px;
+    height: 3px;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+ul.links-boxes-lists li {
+    color: #2F83CB;
+    opacity: 0.5;
+    font-size: 16px;
+    padding: 10px 30px;
+    font-weight: 600;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 8px 8px 0px 0px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.tab-content-box {
+    padding: 100px 0;
+}
+
+.icon-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text-box.width-70 img {
+    width: 50px;
+}
+
+.icon-text-box:hover img {
+    transform: scale(1.4);
+}
+
+.icon-text-box img:hover {
+    /* filter: drop-shadow(0 20px 28px rgba(0, 0, 0)); */
+}
+
+.icon-text-box img {
+    width: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-text-box h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.frontend-tabs-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sheduel-button-individual {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.sheduel-button-individual a {
+    border: 2px solid #07C28E;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media(max-width: 450px) {
+    .frontend-tabs-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .links-boxes {
+        margin-top: 0 !important;
+    }
+
+    .icon-text-box {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 780px) {
+    .links-boxes {
+        overflow-x: scroll !important;
+        margin-top: 0;
+    }
+
+    .frontend-tabs-box {
+        width: 100%;
+    }
+
+    .icon-text-box img {
+        width: 40px;
+    }
+
+    .icon-text-box h1 {
+        font-size: 16px;
+    }
+
+    .tab-content-box {
+        padding: 50px 0;
+    }
+
+    .sheduel-button-individual {
+        margin-top: 40px;
+    }
+}
